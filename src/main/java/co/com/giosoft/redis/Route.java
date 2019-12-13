@@ -12,6 +12,12 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 import static org.springframework.web.reactive.function.server.RequestPredicates.accept;
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 
+/**
+ * Clase encargada de recibir las peticiones rest y redireccionarlas al correspondiente handler
+ * que resolverá la peticion. Equivale al controlador en el modelo reactivo orientado a anotaciones
+ * @author Giovany Villegas
+ */
+
 @Configuration
 public class Route {
 

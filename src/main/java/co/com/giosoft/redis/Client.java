@@ -5,6 +5,11 @@ import lombok.*;
 
 import java.io.Serializable;
 
+/**
+ * Clase que representa la entidad cliente
+ * @author Giovany Villegas
+ *
+ */
 
 @Builder
 @Data

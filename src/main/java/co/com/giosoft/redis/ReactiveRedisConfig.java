@@ -9,7 +9,15 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
-
+/**
+ * Clase encargadas de configurar el acceso a redis y las operaciones básicas usando Jackson2JsonRedisSerializer
+ * para serializar las entidades permitiendo leer y escribir en redis en formato json.
+ * Jackson2JsonRedisSerializer: Puede leer y escribir Json en redis usando Jackson y Jackson databind Object mapper
+ * ReactiveRedisOperations: Interfase que especifica un conjunto basico de operaciones redis
+ * ReactiveRedisTemplate: Abstraccion para implementar operaciones reactivas en redis
+ * @author Giovany Villegas
+ *
+ */
 
 @Configuration
 public class ReactiveRedisConfig {
