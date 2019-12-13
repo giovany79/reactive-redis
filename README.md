@@ -1,7 +1,7 @@
 # reactive-redis
 Proyecto que se encarga de guardar y consultar una entidad cliente en un cache.
 
-##Tecnologías
+## Tecnologías
 - springboot 2.0
 - Webflux con endpoints funcionales
 - Spring data redis con lettuce
