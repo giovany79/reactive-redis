@@ -31,7 +31,18 @@ repositories {
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-redis-reactive')
     compile('org.springframework.boot:spring-boot-starter-webflux')
+
     compileOnly('org.projectlombok:lombok')
+    implementation('org.projectlombok:lombok')
+    testCompileOnly('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+    testAnnotationProcessor('org.projectlombok:lombok')
+    
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('io.projectreactor:reactor-test')
+    
+    
+    
+    
+    
 }
