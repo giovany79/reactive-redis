@@ -38,7 +38,7 @@ https://projectlombok.org/
 ## Requisitos
 1. Tener instalado Docker
 
-2. Descargar la imagen de docker:
+2. Descargar la imagen oficial de redis en docker:
 
 https://hub.docker.com/_/redis
 
