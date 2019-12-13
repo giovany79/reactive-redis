@@ -10,10 +10,19 @@ Proyecto que se encarga de guardar y consultar una entidad cliente en un cache.
 - Redis
 - Docker
 
-##Requisitos
+## Requisitos
 1. Tener instalado Docker
+
 2. Descargar la imagen de docker:
-  docker pull redis
-3. 
+
+https://hub.docker.com/_/redis
+
+  
+3. Tener un IDE instalado (eclipse, intellij, netbeans, etc)
 
 
+## Contexto
+
+Redis: Es una base de datos open source con estructura de datos en memoria. Comunmente es usada como base de datos, cache y message brocker. Soporta estructura de datos como String,hashes, listas, set, sorted set, bipmaps, hyperlogs, geospatial indexes, queries y streams.
+
+https://redis.io/
