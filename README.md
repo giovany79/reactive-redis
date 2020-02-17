@@ -20,7 +20,7 @@ Proporciona una fácil configuración para acceso a la aplicación Redis desde a
 https://spring.io/projects/spring-data-redis
 
 ### Gradle
-Gradle ayuda a los equipos a construir, automatizar, testear y entregar mejor software y de manera rápida.
+Gradle permite automatizar la administración de dependencias, automatizar pruebas unitarias y de acceptación y generar artefactos desplegables
 https://gradle.org/
 
 ### Redis
