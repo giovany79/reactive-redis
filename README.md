@@ -8,7 +8,7 @@ Versión de Java 11 para desarrollo de aplicaciones en lenguaje de programación
 https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 
 ### Springboot 2.0: 
-Componente que permite crear aplicaciones autocontenidas que permiten ejecutarse en su mismo proceso
+Componente que permite crear aplicaciones autocontenidas y las cuales se ejecutan en su mismo proceso
 https://spring.io/projects/spring-boot
 
 ### Webflux con endpoints funcionales:
